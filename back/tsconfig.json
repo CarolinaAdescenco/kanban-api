@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "strict": true,
+        "baseUrl": "./src/",
+        "strictPropertyInitialization": false,
+        "allowJs": true,
+        "paths": {
+            "@config/*": ["config/*"],
+            "@controller/*": ["controller/*"],
+            "@database/*": ["database/*"],
+            "@modules/*": ["modules/*"],
+            "@routes/*": ["routes/*"],
+            "@services/*": ["services/*"]
+        },
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    }
+}
